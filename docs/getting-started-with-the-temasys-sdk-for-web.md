@@ -1,7 +1,7 @@
 ---
 title: Getting Started with the Temasys SDK for Web
 date: 2020-05-17
-slug: API docs
+slug: api-docs
 
 ---
 Getting Started with the Temasys SDK for Web
