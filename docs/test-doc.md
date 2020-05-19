@@ -6,7 +6,7 @@ slug: test-doc
 ---
 ## Getting Started with the Temasys SDK for Android
 
-### **A step-by-step guide to embedding Real-Time Communication features into your Android application**
+## **A step-by-step guide to embedding Real-Time Communication features into your Android application**
 
 Fully encrypted, peer-to-peer and multiparty real-time communications features inside your app, in just a few lines of code? YES! Check it out!
 
