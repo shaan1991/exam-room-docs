@@ -1,15 +1,6 @@
 {
   "sidebar": [
     {
-      "section": "api",
-      "topics": [
-        {
-          "title": "test",
-          "slug": "sdk-for-web"
-        }
-      ]
-    },
-    {
       "section": "Introduction",
       "topics": [
         {
