@@ -4,14 +4,137 @@ date: 2020-05-17
 slug: test-doc
 
 ---
-## This is a test doc
+## Getting Started with the Temasys SDK for Android
 
-hi bro.. writing here is so easy
+### **A step-by-step guide to embedding Real-Time Communication features into your Android application**
 
-![Temasys.io Logo](https://temasys.io/wp-content/themes/temasys-2017/assets/images/branding/temasys-logo-white-text.svg)[Z](data:image/jpeg;base64,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 "Z")
+Fully encrypted, peer-to-peer and multiparty real-time communications features inside your app, in just a few lines of code? YES! Check it out!
 
-![Image result for image](data:image/jpeg;base64,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)
+This document is designed to help you start using the Temasys SDK for Android. This SDK supports features like video & voice calling, secure messaging, and more INSIDE any Android application.
 
-## this is another test
+## **Step 1: Create an Account on the Temasys Console and Generate an App Key**
 
-![Image result for image](data:image/jpeg;base64,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)
+[Here are instructions for creating an account and generating an App Key.](https://temasys.io/creating-an-account-generating-a-key/)
+
+## **Step 2: Begin Your Project by Performing the Following Substeps**
+
+1. **Add the Android SDK to your project**
+   * [Review this document to setup Android Studio](https://cdn.temasys.io/skylink/skylinksdk/android/latest/SkylinkSDK_Android_Studio_Setup.md)
+   * Note the [Android SDK version required](https://cdn.temasys.io/skylink/skylinksdk/android/latest/Android_SDK_Version_Required.md) for the Temasys SDK for Android
+   1. **Implement Listeners** in the class receiving events from the Temasys SDK.**  
+      Note:** A list of listeners available in the current release and the callbacks they provide can be found [here](http://cdn.temasys.io/skylink/skylinksdk/android/latest/doc/reference/packages.html). For older versions just replace “latest” in the URL with the SDK version.
+   2. **Always implement LifeCycleListener and RemotePeerListener.** The “listeners” are as follows:
+      1. Audio Call : Implement MediaListener
+         1. Video Call : Implement MediaListener
+         2. File Transfer : Implement FileTransferListener
+         3. Data Transfer : Implement DataTransferListener
+         4. Messaging : Implement MessageListener
+         5. Recording : Implement RecordingListener
+
+
+      1. public class VideoCallFragment extends Fragment implements
+      2. LifeCycleListener, MediaListener, RemotePeerListener{
+      3. 
+      4. /**Implementation of callbacks provided the listeners**/
+      5. ... .....
+      6. }
+   3. **Initialize SkylinkConfig** to specify the desired functionality from the Temasys SDK
+      1. private SkylinkConfig getSkylinkConfig() {
+      2. SkylinkConfig config = new SkylinkConfig();
+      3. config.setAudioVideoSendConfig(SkylinkConfig.AudioVideoConfig.AUDIO_AND_VIDEO);
+      4. config.setAudioVideoReceiveConfig(SkylinkConfig.AudioVideoConfig.AUDIO_AND_VIDEO);
+      5. config.setHasPeerMessaging(true); config.setHasFileTransfer(true);
+      6. config.setHasDataTransfer(true);
+      7. config.setTimeout(60);
+      8. return config;
+      9. }
+
+      | --- |
+      | There are four configurations available for AudioVideoConfigSkylinkConfig.AudioVideoConfig.AUDIO_AND_VIDEOSkylinkConfig.AudioVideoConfig.NO_AUDIO_NO_VIDEOSkylinkConfig.AudioVideoConfig.AUDIO_ONLYSkylinkConfig.AudioVideoConfig.VIDEO_ONLY |
+
+      ###### 
+   4. **Initialize SkylinkConnection** object. You can initialize the SkylinkConnection object by providing the App key and secret obtained from the Temasys Console and the config object (obtained in step 3). This registers your application key with the Temasys server.
+       1. SkylinkConnection skylinkConnection;
+       2. .....
+       3. .....
+       4. public void onCreate(Bundle savedInstanceState) {
+       5. super.onCreate();
+       6. skylinkConnection = SkylinkConnection.getInstance();
+       7. skylinkConnection.init(getString(R.string.app_key), getSkylinkConfig(),
+       8. this.getActivity().getApplicationContext());
+       9. 
+      10. // register respective listeners
+      11. 
+      12. skylinkConnection.setLifeCycleListener(this);
+      13. skylinkConnection.setMediaListener(this);
+      14. skylinkConnection.setRemotePeerListener(this);
+      15. .........
+      16. .........
+      17. }
+   5. **Connect to a room** using the Temasys SDK  
+      A room is where two peers can join and interact with each other. The roomName can be any alpha-numeric value. The next example shows that two peers will enter a room named “MyRoom”, where they can communicate with one another:
+      1. // you will be connected to the room named "roomName" using a user name or user data object.
+      2. skylinkConnection.connectToRoom("secret", "roomName", "userName");
+
+      **Note**: The Temasys SDK also provides a more secure credentials-based method for connecting to a room. [Click here for information on generating credentials from your application server](http://support.temasys.com.sg/support/solutions/articles/5000644837-how-do-i-connect-to-a-room-using-credentials-). We strongly recommend using the credentials method for production applications.
+   6. **Verify** connectivity by implementing debug logging in the callbacks of LifeCycleListener
+       1. /***
+       2. * Lifecycle Listener Callbacks -- triggered during events that happen during the SDK's lifecycle
+       3. *//**
+       4. * Triggered when connection is successful
+       5. *
+       6. * @param isSuccess
+       7. * @param message
+       8. */
+       9. @Override
+      10. public void onConnect(boolean isSuccess, String message) {
+      11. if (isSuccess) {
+      12. Toast.makeText(getActivity(), "Connected to room ").show();
+      13. } else {
+      14. Log.d(TAG, "Skylink Connection Failed");
+      15. }
+      16. }
+      17. 
+      18. @Override
+      19. public void onWarning(int errorCode, String message) {
+      20. String log = "Warning is errorCode " + errorCode + ". Message: " + message + ".";
+      21. Log.d(TAG, log);
+      22. }
+      23. 
+      24. @Override
+      25. public void onDisconnect(int errorCode, String message) {
+      26. String log = "";
+      27. if (errorCode == Errors.DISCONNECT_FROM_ROOM) {
+      28. log += "We have successfully disconnected from the room.";
+      29. } else if (errorCode == Errors.DISCONNECT_UNEXPECTED_ERROR) {
+      30. log += "WARNING! We have been unexpectedly disconnected from the room!";
+      31. }
+      32. log += " Server message: " + message;
+      33. Log.d(TAG, log);
+      34. }
+      35. 
+      36. @Override
+      37. public void onReceiveLog(int infoCode, String message) {
+      38. switch (infoCode) {
+      39. case CAM_SWITCH_FRONT:
+      40. case CAM_SWITCH_NON_FRONT:
+      41. case CAM_SWITCH_NO:
+      42. Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show();
+      43. break;
+      44. default:
+      45. Log.d(TAG, "Received SDK log: " + message);
+      46. break;
+      47. }
+      48. }
+
+We hope this helps you get started with the Temasys SDK for Android! Have fun and please [contact us](https://temasys.io/contact-us/) if you need any assistance!
+
+### **ADDITIONAL RESOURCES**
+
+To further demonstrate the possibilities and flexibility of the Temasys SDK for Android, please refer to our [simple demo application](https://github.com/Temasys/skylink-android-sample).
+
+[Temasys Developer Console](https://console.temasys.io/)
+
+[Getting Started Guide for the Web](https://temasys.io/temasys-rtc-getting-started-web-sdk/)
+
+[Getting Started Guide for iOS](https://temasys.io/temasys-rtc-getting-started-ios-sdk/)
