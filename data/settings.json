@@ -30,6 +30,10 @@
       "section": "SDK for web",
       "topics": [
         {
+          "title": "Test doc",
+          "slug": "test-doc"
+        },
+        {
           "title": "sdk for web",
           "slug": "sdk-for-web"
         }
