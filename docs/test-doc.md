@@ -129,7 +129,7 @@ This document is designed to help you start using the Temasys SDK for Android. T
 
 We hope this helps you get started with the Temasys SDK for Android! Have fun and please [contact us](https://temasys.io/contact-us/) if you need any assistance!
 
-### **ADDITIONAL RESOURCES**
+## **ADDITIONAL RESOURCES**
 
 To further demonstrate the possibilities and flexibility of the Temasys SDK for Android, please refer to our [simple demo application](https://github.com/Temasys/skylink-android-sample).
 
