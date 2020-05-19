@@ -6,4 +6,6 @@ slug: test-doc
 ---
 ## This is a test doc
 
+hi bro.. writing here is so easy
+
 ## this is another test
