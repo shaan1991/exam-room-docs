@@ -1,6 +1,15 @@
 {
   "sidebar": [
     {
+      "section": "SDK for web",
+      "topics": [
+        {
+          "title": "sdk for web",
+          "slug": "sdk-for-web"
+        }
+      ]
+    },
+    {
       "section": "Introduction",
       "topics": [
         {
