@@ -1,5 +1,5 @@
 ---
-title: test doc
+title: Getting started with android
 date: 2020-05-17
 slug: test-doc
 
