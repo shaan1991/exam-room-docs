@@ -4,8 +4,6 @@ date: 2020-05-17
 slug: sdk-for-web
 
 ---
-Getting Started with the Temasys SDK for Web
-
 ## **A step-by-step guide to embedding Real-Time Communication features into your webapp or website**
 
 This document is designed to help developers get started using the Temasys SDK for the Web to add video & voice calling, secure messaging, file sharing and screen sharing features to any website.
