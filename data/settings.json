@@ -1,6 +1,15 @@
 {
   "sidebar": [
     {
+      "section": "api",
+      "topics": [
+        {
+          "title": "test",
+          "slug": "test"
+        }
+      ]
+    },
+    {
       "section": "Introduction",
       "topics": [
         {
