@@ -1,6 +1,15 @@
 {
   "sidebar": [
     {
+      "section": "Get started",
+      "topics": [
+        {
+          "title": "Get started for android",
+          "slug": "get-started-android"
+        }
+      ]
+    },
+    {
       "section": "Introduction",
       "topics": [
         {
