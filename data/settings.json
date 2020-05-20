@@ -1,6 +1,15 @@
 {
   "sidebar": [
     {
+      "section": "",
+      "topics": [
+        {
+          "title": "Get the video image bitmap data from Stream object",
+          "slug": "video-image-bitmap"
+        }
+      ]
+    },
+    {
       "section": "Introduction",
       "topics": [
         {
