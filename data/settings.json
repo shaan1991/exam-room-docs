@@ -1,15 +1,6 @@
 {
   "sidebar": [
     {
-      "section": "Get started",
-      "topics": [
-        {
-          "title": "Get started for android",
-          "slug": "get-started-android"
-        }
-      ]
-    },
-    {
       "section": "Introduction",
       "topics": [
         {
@@ -36,6 +27,15 @@
         {
           "title": "Forestry CMS",
           "slug": "forestry-cms"
+        }
+      ]
+    },
+    {
+      "section": "Get started",
+      "topics": [
+        {
+          "title": "Get started for android",
+          "slug": "get-started-android"
         }
       ]
     },
