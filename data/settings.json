@@ -13,6 +13,10 @@
       "section": "Setup",
       "topics": [
         {
+          "title": "Audio-level",
+          "slug": "audio-level"
+        },
+        {
           "title": "API docs",
           "slug": "api-docs-main"
         },
