@@ -16,6 +16,7 @@ fields:
   label: slug
 pages:
 - docs/editing-in-forestry.md
+- docs/get-started-with-using-skylinksdk-for-android.md
 - docs/getting-started-with-the-temasys-sdk-for-web.md
 - docs/how-do-i-send-audio-level-events-for-each-peer.md
 - docs/test-doc.md
