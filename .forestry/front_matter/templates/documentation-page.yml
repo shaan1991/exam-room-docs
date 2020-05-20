@@ -17,6 +17,7 @@ fields:
 pages:
 - docs/editing-in-forestry.md
 - docs/get-started-with-using-skylinksdk-for-android.md
+- docs/get-the-video-image-bitmap-data-from-stream-object-received-in-skylink.md
 - docs/getting-started-with-the-temasys-sdk-for-web.md
 - docs/how-do-i-send-audio-level-events-for-each-peer.md
 - docs/test-doc.md
