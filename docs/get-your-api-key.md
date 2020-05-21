@@ -1,9 +1,10 @@
 ---
-title: "###### CREATE AN ACCOUNT AND GENERATE AN APP KEY"
+title: " CREATE AN ACCOUNT AND GENERATE AN APP KEY"
 date: 2020-05-20
 slug: get-your-api-key
 
 ---
+## CREATE AN ACCOUNT AND GENERATE AN APP KEY
 
 The purpose of this document is to help you start using the Skylink SDKs for Web, Android, and iOS.
 
