@@ -20,7 +20,7 @@ If you haven’t registered with Temasys, then please click the Register button.
 
 If you’re a registered user then you can log in with your username and password.
 
-![Image not found](images/createaccount-APIkeygen/Login-Console.png)
+![](/login-console.png)
 
 ## Step 2: Register and then Log In with your Username and Password
 
