@@ -26,11 +26,11 @@ This document is designed to help you start using the Temasys SDK for Android. T
    **Note:** A list of listeners available in the current release and the callbacks they provide can be found [here](http://cdn.temasys.io/skylink/skylinksdk/android/latest/doc/reference/packages.html). For older versions just replace “latest” in the URL with the SDK version.
 3. **Always implement LifeCycleListener and RemotePeerListener.** The “listeners” are as follows:
    1. Audio Call : Implement `MediaListener`
-      1. Video Call : Implement `MediaListener`
-      2. File Transfer : Implement `FileTransferListener`
-      3. Data Transfer : Implement `DataTransferListener`
-      4. Messaging : Implement `MessageListener`
-      5. Recording : Implement `RecordingListener`
+   2. Video Call : Implement `MediaListener`
+   3. File Transfer : Implement `FileTransferListener`
+   4. Data Transfer : Implement `DataTransferListener`
+   5. Messaging : Implement `MessageListener`
+   6. Recording : Implement `RecordingListener`
 
        public class VideoCallFragment extends Fragment implements
        
