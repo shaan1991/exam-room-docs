@@ -4,7 +4,7 @@ date: 2020-05-20
 slug: get-your-api-key
 
 ---
-## ![](/login-console.png)[Download File]( "Download File")![](/register-console.png)CREATE AN ACCOUNT AND GENERATE AN APP KEY
+## CREATE AN ACCOUNT AND GENERATE AN APP KEY
 
 The purpose of this document is to help you start using the Skylink SDKs for Web, Android, and iOS.
 
@@ -18,9 +18,7 @@ The first step to getting started is to create an account on the Temasys Console
 
 If you haven’t registered with Temasys, then please click the Register button.
 
-If you’re a registered user then you can log in with your username and password.
-
-![](/login-console.png)
+If you’re a registered user then you can log in with your username and password
 
 ## Step 2: Register and then Log In with your Username and Password
 
@@ -34,7 +32,7 @@ Check your email and click the Activate my account button in the confirmation em
 
 You’ll get a message that your account has been activated and you’ll be prompted to log in with your username and password.
 
-![Image not found](images/createaccount-APIkeygen/Register-Console.png)
+![](/register-console.png)
 
 ## Step 3: Create an App
 
