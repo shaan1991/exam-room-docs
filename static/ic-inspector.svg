@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="30px" viewBox="0 0 35 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-inspector</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Live-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Dev-Center-3c" transform="translate(-1053.000000, -565.000000)" stroke="#A0A8B8">
+            <g id="ic-inspector" transform="translate(1053.000000, 565.000000)">
+                <path d="M14.75,12.0833333 C14.75,15.7641667 11.765,18.75 8.08333333,18.75 C4.40166667,18.75 1.41666667,15.7641667 1.41666667,12.0833333 C1.41666667,8.40166667 4.40166667,5.41666667 8.08333333,5.41666667 C11.765,5.41666667 14.75,8.40166667 14.75,12.0833333 L14.75,12.0833333 Z" id="Stroke-240"></path>
+                <path d="M12.7969167,16.7969167 L20.5835833,24.5835833" id="Stroke-241" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
