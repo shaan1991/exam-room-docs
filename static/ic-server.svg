@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="30px" viewBox="0 0 35 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>nav-requirements</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Live-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Dev-Center-3c" transform="translate(-714.000000, -691.000000)" stroke="#A0A8B8">
+            <g id="nav-requirements" transform="translate(714.000000, 691.000000)">
+                <g id="Group" transform="translate(1.000000, 9.000000)">
+                    <polygon id="Stroke-3231" points="23.5 6.5 0.5 6.5 0.5 0.5 23.5 0.5"></polygon>
+                    <path d="M17.5,3.5 C17.5,3.775 17.276,4 17,4 C16.724,4 16.5,3.775 16.5,3.5 C16.5,3.223 16.724,3 17,3 C17.276,3 17.5,3.223 17.5,3.5 L17.5,3.5 Z" id="Stroke-3233"></path>
+                    <path d="M20.5,3.5 C20.5,3.775 20.276,4 20,4 C19.724,4 19.5,3.775 19.5,3.5 C19.5,3.223 19.724,3 20,3 C20.276,3 20.5,3.223 20.5,3.5 L20.5,3.5 Z" id="Stroke-3234"></path>
+                    <path d="M4.5,3.5 C4.5,4.053 4.052,4.5 3.5,4.5 C2.947,4.5 2.5,4.053 2.5,3.5 C2.5,2.947 2.947,2.5 3.5,2.5 C4.052,2.5 4.5,2.947 4.5,3.5 L4.5,3.5 Z" id="Stroke-3235"></path>
+                    <polyline id="Stroke-3236" points="0.5 6.5 0.5 12.5 23.5 12.5 23.5 6.5"></polyline>
+                    <path d="M17.5,9.5 C17.5,9.775 17.276,10 17,10 C16.724,10 16.5,9.775 16.5,9.5 C16.5,9.223 16.724,9 17,9 C17.276,9 17.5,9.223 17.5,9.5 L17.5,9.5 Z" id="Stroke-3238"></path>
+                    <path d="M20.5,9.5 C20.5,9.775 20.276,10 20,10 C19.724,10 19.5,9.775 19.5,9.5 C19.5,9.223 19.724,9 20,9 C20.276,9 20.5,9.223 20.5,9.5 L20.5,9.5 Z" id="Stroke-3239"></path>
+                    <path d="M4.5,9.5 C4.5,10.053 4.052,10.5 3.5,10.5 C2.947,10.5 2.5,10.053 2.5,9.5 C2.5,8.947 2.947,8.5 3.5,8.5 C4.052,8.5 4.5,8.947 4.5,9.5 L4.5,9.5 Z" id="Stroke-3240"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
