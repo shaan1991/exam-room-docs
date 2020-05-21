@@ -18,16 +18,25 @@ This document is designed to help developers get started using the Temasys SDK f
 
 #### Include Video and Audio Elements in HTML file
 
- 1. <html>
- 2. <head>
- 3. <title>WebRTC with Temasys SkylinkJS</title>
- 4. <script><script>
- 5. </head>
- 6. <body>
- 7. <video id="myvideo" style="transform: rotateY(-180deg);" autoplay muted</video>
- 8. <audio id="myaudio" autoplay muted</audio>
- 9. </body>
-10. </html>
+    <html>
+    
+    <head>
+    
+    <title>WebRTC with Temasys SkylinkJS</title>
+    
+    <script><script>
+    
+    </head>
+    
+    <body>
+    
+    <video id="myvideo" style="transform: rotateY(-180deg);" autoplay muted</video>
+    
+    <audio id="myaudio" autoplay muted</audio>
+    
+    </body>
+    
+    </html>
 
 The body contains a video tag to attach the video stream from the camera and an audio tag to attach the audio stream. We used a CSS transform call to mirror the image, so it looks and feels more natural. We muted the audio, so you don’t hear yourself speaking. The autoplay attribute is needed in some browsers where there are restrictions on autoplay. [https://developers.google.com/web/updates/2017/09/autoplay-policy-changes](https://developers.google.com/web/updates/2017/09/autoplay-policy-changes "https://developers.google.com/web/updates/2017/09/autoplay-policy-changes")
 
@@ -37,15 +46,13 @@ The body contains a video tag to attach the video stream from the camera and an 
 
 Add to main.js
 
-    
-
-1. import Skylink, { SkylinkEventManager, SkylinkLogger, SkylinkConstants } from './path/to/skylink.complete.js'
+    import Skylink, { SkylinkEventManager, SkylinkLogger, SkylinkConstants } from './path/to/skylink.complete.js'
 
 #### Include as a script tag with type as Module
 
 Add to main.js
 
-1. <script src="./path/to/skylink.complete.js" type="module"></script>
+    <script src="./path/to/skylink.complete.js" type="module"></script>
 
 ## Step 4: Initialise and then listen for events
 
@@ -55,15 +62,21 @@ For appKey: ‘XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXX’, use the appKey you generated
 
 Full list of init configuration options here: [initOptions](http://cdn.temasys.io/skylink/skylinkjs/2.x/docs/global.html#initOptions)
 
-1. const config = {
-2. appKey: 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXX',
-3. defaultRoom: 'skylinkRoom',
-4. enableIceTrickle: true,
-5. enableDataChannel: true,
-6. forceSSL: true,
-7. };
-8. 
-9. skylink = new Skylink(config);
+    const config = {
+    
+    appKey: 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXX',
+    
+    defaultRoom: 'skylinkRoom',
+    
+    enableIceTrickle: true,
+    
+    enableDataChannel: true,
+    
+    forceSSL: true,
+    
+    };
+    
+    skylink = new Skylink(config);
 
 #### Declare joinRoomOptions and pass as argument in joinRoom method. MediaStreams can be obtained from the resolved Promise
 
@@ -71,23 +84,37 @@ Configure by setting audio: true and video: true to access camera and microphone
 
 Full list of joinRoom config options here: [joinRoomOptions](http://cdn.temasys.io/skylink/skylinkjs/2.x/docs/global.html#joinRoomOptions)
 
- 1. const joinRoomOptions = {
- 2. audio: { stereo: true },
- 3. video: true,
- 4. };
- 5. 
- 6. skylink.joinRoom(joinRoomOptions)
- 7. .then((streams) => {
- 8. // if there is an audio stream
- 9. if (streams\[0\]) {
-10. window.attachMediaStream(audioEl, streams\[0\]);
-11. }
-12. // if there is a video stream
-13. if (streams\[1\]) {
-14. window.attachMediaStream(videoEl, streams\[1\]);
-15. }
-16. })
-17. .catch();
+    const joinRoomOptions = {
+    
+    audio: { stereo: true },
+    
+    video: true,
+    
+    };
+    
+    skylink.joinRoom(joinRoomOptions)
+    
+    .then((streams) => {
+    
+    // if there is an audio stream
+    
+    if (streams[0]) {
+    
+    window.attachMediaStream(audioEl, streams[0]);
+    
+    }
+    
+    // if there is a video stream
+    
+    if (streams[1]) {
+    
+    window.attachMediaStream(videoEl, streams[1]);
+    
+    }
+    
+    })
+    
+    .catch();
 
 ## Step 5:Subscribing and Unsubscribing to an event
 
@@ -95,24 +122,35 @@ Full list of joinRoom config options here: [joinRoomOptions](http://cdn.temasys.
 
 [**peerJoined**](http://cdn.temasys.io/skylink/skylinkjs/latest/doc/classes/Skylink.html#event_peerJoined)**:** informs you that a peer has joined the room and shares their peerID and peerInfo with you. In this example, we create a new video element for this peer and use the peerId to identify this element in the DOM of our website.
 
- 1. SkylinkEventManager.addEventListener(SkylinkConstants.EVENTS.PEER_JOINED, (evt) => {
- 2. const { isSelf, peerId, peerInfo } = evt.detail;
- 3. if (isSelf) {
- 4. return: // We already have a video and audio element for our video and audio and don't need to create a new one.
- 5. }
- 6. 
- 7. 
- 8. const vid = document.createElement('video');
- 9. vid.autoplay = true;
-10. vid.id = <code data-enlighter-language="generic" class="EnlighterJSRAW" style="display: none;">${peerId_video}</code><span class="wpcustomEnlighterJS EnlighterJS"><span class="">$</span><span class="br0">{</span><span class="">peerId_video</span><span class="br0">}</span></span>;
-11. document.body.appendChild(vid);
-12. 
-13. const aud = document.createElement('audio');
-14. aud.autoplay = true;
-15. aud.muted = true; // Added to avoid feedback when testing locally
-16. aud.id = <code data-enlighter-language="generic" class="EnlighterJSRAW" style="display: none;">${peerId_audio}</code><span class="wpcustomEnlighterJS EnlighterJS"><span class="">$</span><span class="br0">{</span><span class="">peerId_audio</span><span class="br0">}</span></span>;
-17. document.body.appendChild(aud);
-18. });
+    SkylinkEventManager.addEventListener(SkylinkConstants.EVENTS.PEER_JOINED, (evt) => {
+    
+    const { isSelf, peerId, peerInfo } = evt.detail;
+    
+    if (isSelf) {
+    
+    return: // We already have a video and audio element for our video and audio and don't need to create a new one.
+    
+    }
+    
+    const vid = document.createElement('video');
+    
+    vid.autoplay = true;
+    
+    vid.id = <code data-enlighter-language="generic" class="EnlighterJSRAW" style="display: none;">${peerId_video}</code><span class="wpcustomEnlighterJS EnlighterJS"><span class="">$</span><span class="br0">{</span><span class="">peerId_video</span><span class="br0">}</span></span>;
+    
+    document.body.appendChild(vid);
+    
+    const aud = document.createElement('audio');
+    
+    aud.autoplay = true;
+    
+    aud.muted = true; // Added to avoid feedback when testing locally
+    
+    aud.id = <code data-enlighter-language="generic" class="EnlighterJSRAW" style="display: none;">${peerId_audio}</code><span class="wpcustomEnlighterJS EnlighterJS"><span class="">$</span><span class="br0">{</span><span class="">peerId_audio</span><span class="br0">}</span></span>;
+    
+    document.body.appendChild(aud);
+    
+    });
 
 #### Listen on ‘incomingStream’ event with isSelf=true for self MediaStream
 
@@ -120,47 +158,83 @@ Skylink 2.x incoming stream will be either an audio stream or a video stream but
 
 [**incomingStream**](http://cdn.temasys.io/skylink/skylinkjs/latest/doc/classes/Skylink.html#event_incomingStream)**:** This event is fired after peerJoined when Temasys SkylinkJS begins to receive the audio and video streams from that peer. This peer could also be yourself (the local user) – in which case the event is fired when the user grants access to his microphone and/or camera and joins a room successfully. In this example, we use the _attachMediaStream()_ function of our enhanced [AdapterJS](http://github.com/Temasys/AdapterJS) library to feed this stream into our previously created video tag in Step 5. Why do we use this function? The different browser vendors have slightly different ways to do this and attachMediaStream() enables us to abstract this.
 
- 1. SkylinkEventManager.addEventListener(SkylinkConstants.EVENTS.ON_INCOMING_STREAM, (evt) => {
- 2. const { isSelf, stream, peerInfo, isVideo, isAudio } = evt.detail;
- 3. if (isSelf) {
- 4. return; // We already attached our local audio and video streams from the resolved promise in joinRoom.
- 5. }
- 6. 
- 7. if(isAudio) {
- 8. const aud = document.getElementById(<code data-enlighter-language="generic" class="EnlighterJSRAW" style="display: none;">${peerId_audio}</code><span class="wpcustomEnlighterJS EnlighterJS"><span class="">$</span><span class="br0">{</span><span class="">peerId_audio</span><span class="br0">}</span></span>);
- 9. attachMediaStream(aud, stream);
-10. }
-11. if(isVideo) {
-12. const vid = document.getElementById(<code data-enlighter-language="generic" class="EnlighterJSRAW" style="display: none;">${peerId_audio}</code><span class="wpcustomEnlighterJS EnlighterJS"><span class="">$</span><span class="br0">{</span><span class="">peerId_audio</span><span class="br0">}</span></span>);
-13. attachMediaStream(vid, stream);
-14. }
-15. });
+    SkylinkEventManager.addEventListener(SkylinkConstants.EVENTS.ON_INCOMING_STREAM, (evt) => {
+    
+    const { isSelf, stream, peerInfo, isVideo, isAudio } = evt.detail;
+    
+    if (isSelf) {
+    
+    return; // We already attached our local audio and video streams from the resolved promise in joinRoom.
+    
+    }
+    
+    if(isAudio) {
+    
+    const aud = document.getElementById(<code data-enlighter-language="generic" class="EnlighterJSRAW" style="display: none;">${peerId_audio}</code><span class="wpcustomEnlighterJS EnlighterJS"><span class="">$</span><span class="br0">{</span><span class="">peerId_audio</span><span class="br0">}</span></span>);
+    
+    attachMediaStream(aud, stream);
+    
+    }
+    
+    if(isVideo) {
+    
+    const vid = document.getElementById(<code data-enlighter-language="generic" class="EnlighterJSRAW" style="display: none;">${peerId_audio}</code><span class="wpcustomEnlighterJS EnlighterJS"><span class="">$</span><span class="br0">{</span><span class="">peerId_audio</span><span class="br0">}</span></span>);
+    
+    attachMediaStream(vid, stream);
+    
+    }
+    
+    });
 
 #### Listen on ‘peerLeft’ event to handle peers leaving the room
 
 [**peerLeft**](http://cdn.temasys.io/skylink/skylinkjs/latest/doc/classes/Skylink.html#method_peerLeft)**:** informs you that a peer has left the room. In our example, we look in the DOM for the video element with the events peerId and remove it. Subscribe to the peer joined event with the code below.
 
-1. SkylinkEventManager.addEventListener(SkylinkConstants.EVENTS.PEER_LEFT, (evt) => {
-2. const { isSelf, peerInfo, peerId } = evt.detail;
-3. const videoElId = isSelf ? 'myvideo' : <code data-enlighter-language="generic" class="EnlighterJSRAW" style="display: none;">${peerId_video}</code><span class="wpcustomEnlighterJS EnlighterJS"><span class="">$</span><span class="br0">{</span><span class="">peerId_video</span><span class="br0">}</span></span>
-4. const audioElId = isSelf ? 'myaudio' : <code data-enlighter-language="generic" class="EnlighterJSRAW" style="display: none;">${peerId_audio}</code><span class="wpcustomEnlighterJS EnlighterJS"><span class="">$</span><span class="br0">{</span><span class="">peerId_audio</span><span class="br0">}</span></span>
-5. const vid = document.getElementById(videoElId);
-6. const audio = document.getElementById(audioElId);
-7. document.body.removeChild(vid);
-8. document.body.removeChild(aud);
-9. });
+    SkylinkEventManager.addEventListener(SkylinkConstants.EVENTS.PEER_LEFT, (evt) => {
+    
+    const { isSelf, peerInfo, peerId } = evt.detail;
+    
+    const videoElId = isSelf ? 'myvideo' : <code data-enlighter-language="generic" class="EnlighterJSRAW" style="display: none;">${peerId_video}</code><span class="wpcustomEnlighterJS EnlighterJS"><span class="">$</span><span class="br0">{</span><span class="">peerId_video</span><span class="br0">}</span></span>
+    
+    const audioElId = isSelf ? 'myaudio' : <code data-enlighter-language="generic" class="EnlighterJSRAW" style="display: none;">${peerId_audio}</code><span class="wpcustomEnlighterJS EnlighterJS"><span class="">$</span><span class="br0">{</span><span class="">peerId_audio</span><span class="br0">}</span></span>
+    
+    const vid = document.getElementById(videoElId);
+    
+    const audio = document.getElementById(audioElId);
+    
+    document.body.removeChild(vid);
+    
+    document.body.removeChild(aud);
+    
+    });SkylinkEventManager.addEventListener(SkylinkConstants.EVENTS.PEER_LEFT, (evt) => {
+    
+    const { isSelf, peerInfo, peerId } = evt.detail;
+    
+    const videoElId = isSelf ? 'myvideo' : <code data-enlighter-language="generic" class="EnlighterJSRAW" style="display: none;">${peerId_video}</code><span class="wpcustomEnlighterJS EnlighterJS"><span class="">$</span><span class="br0">{</span><span class="">peerId_video</span><span class="br0">}</span></span>
+    
+    const audioElId = isSelf ? 'myaudio' : <code data-enlighter-language="generic" class="EnlighterJSRAW" style="display: none;">${peerId_audio}</code><span class="wpcustomEnlighterJS EnlighterJS"><span class="">$</span><span class="br0">{</span><span class="">peerId_audio</span><span class="br0">}</span></span>
+    
+    const vid = document.getElementById(videoElId);
+    
+    const audio = document.getElementById(audioElId);
+    
+    document.body.removeChild(vid);
+    
+    document.body.removeChild(aud);
+    
+    });
 
 #### Unsubscribing to events
 
 Unsubscribe to the peer joined event with the code below.
 
-1. SkylinkEventManager.removeEventListener(SkylinkConstants.EVENTS.PEER_JOINED, peerJoinedHandler);
+    SkylinkEventManager.removeEventListener(SkylinkConstants.EVENTS.PEER_JOINED, peerJoinedHandler);
 
 #### Logging
 
 Toggle console logging on and off with the setLevel method. For more logger options refer to: [SkylinkLogger](https://cdn.temasys.io/skylink/skylinkjs/latest/docs/SkylinkLogger.html)
 
-1. SkylinkLogger.setLevel(SkylinkLogger.logLevels.DEBUG, storeLogs);
+    SkylinkLogger.setLevel(SkylinkLogger.logLevels.DEBUG, storeLogs);
 
 ## Step 6: Get ready to impress!
 
