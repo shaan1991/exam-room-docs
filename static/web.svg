@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="30px" viewBox="0 0 35 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>web</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Live-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dev-Center-3c" transform="translate(-714.000000, -520.000000)" stroke="#A0A8B8">
+            <g id="web" transform="translate(714.000000, 520.000000)">
+                <path d="M22,19.2051282 C22,19.6 21.6896552,19.9230769 21.3103448,19.9230769 L2.68965517,19.9230769 C2.31034483,19.9230769 2,19.6 2,19.2051282 L2,7.71794872 C2,7.32307692 2.31034483,7 2.68965517,7 L21.3103448,7 C21.6896552,7 22,7.32307692 22,7.71794872 L22,19.2051282 L22,19.2051282 Z" id="Stroke-1"></path>
+                <path d="M8,23 L16,23" id="Stroke-5" stroke-linecap="round"></path>
+                <path d="M10,19.7179487 L10,22.5897436" id="Stroke-6"></path>
+                <path d="M14,19.7179487 L14,22.5897436" id="Stroke-7"></path>
+            </g>
+        </g>
+    </g>
+</svg>
