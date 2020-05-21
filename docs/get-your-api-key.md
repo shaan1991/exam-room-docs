@@ -1,5 +1,5 @@
 ---
-title: " CREATE AN ACCOUNT AND GENERATE AN APP KEY"
+title: ''
 date: 2020-05-20
 slug: get-your-api-key
 
