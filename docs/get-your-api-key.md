@@ -4,7 +4,6 @@ date: 2020-05-20
 slug: get-your-api-key
 
 ---
-## CREATE AN ACCOUNT AND GENERATE AN APP KEY
 
 The purpose of this document is to help you start using the Skylink SDKs for Web, Android, and iOS.
 
@@ -42,7 +41,7 @@ Click the Add App button to get started.
 
 Click the Get Started button to continue getting started.
 
-![Image not found](images/createaccount-APIkeygen/Console-AddApp.png =40%x)
+![Image not found](images/createaccount-APIkeygen/Console-AddApp.png)
 
 ## Step 4: Select the Platforms and Payment Plan you Want to Use
 
@@ -52,31 +51,31 @@ Click a platform to select that platform. You can select multiple platforms. A s
 
 Click the Next button.
 
-![Image not found](images/createaccount-APIkeygen/Console-SelectPlatform.png =90%x)
+![Image not found](images/createaccount-APIkeygen/Console-SelectPlatform.png)
 
 ## Step 5: Select your Plan: Basic or Pro
 
 Choose whether you would like the Basic or Pro payment plan. Remember that you get 30-days free to sample the SDKs.
 
-![Image not found](images/createaccount-APIkeygen/Console-Basic-Pro.png =90%x)
+![Image not found](images/createaccount-APIkeygen/Console-Basic-Pro.png)
 
 ## Step 6: Enter Credit Card Information or Accept 30-days Trial
 
 Enter your credit card information. Prove that you are not a robot and then click Add Credit Card. Remember that you can continue without adding a credit card and accept a 30-days trial.
 
-![Image not found](images/createaccount-APIkeygen/Console-CreditCard.png =90%x)
+![Image not found](images/createaccount-APIkeygen/Console-CreditCard.png)
 
 ## Step 7: View the Temasys Console Dashboard
 
 Enter your credit card information. Prove that you are not a robot and then click Add Credit Card. Remember that you can continue without adding a credit card and accept a 30-days trial.
 
-![Image not found](images/createaccount-APIkeygen/Console-Dasghboard.png =90%x)
+![Image not found](images/createaccount-APIkeygen/Console-Dasghboard.png)
 
 ## Step 8: View your App Keys
 
 Click the View Keys button to view your app keys. Remember that you app keys are private and you should not share them with anyone.
 
-![Image not found](images/createaccount-APIkeygen/Console-Dasghboard.png =90%x)
+![Image not found](images/createaccount-APIkeygen/Console-Dasghboard.png)
 
 ### ADDITIONAL RESOURCES
 
