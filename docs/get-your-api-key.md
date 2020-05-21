@@ -32,7 +32,7 @@ Check your email and click the Activate my account button in the confirmation em
 
 You’ll get a message that your account has been activated and you’ll be prompted to log in with your username and password.
 
-![](/register-console.png)
+![Image not found](/register-console.png)
 
 ## Step 3: Create an App
 
