@@ -37,6 +37,8 @@ The body contains a video tag to attach the video stream from the camera and an 
 
 Add to main.js
 
+    
+
 1. import Skylink, { SkylinkEventManager, SkylinkLogger, SkylinkConstants } from './path/to/skylink.complete.js'
 
 #### Include as a script tag with type as Module
