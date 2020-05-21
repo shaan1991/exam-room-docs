@@ -18,7 +18,7 @@ This document is designed to help you start using the Temasys SDK for Android. T
 
 ### Step 2: Begin Your Project by Performing the Following Substeps
 
-1. **=Add the Android SDK to your project**
+1. **Add the Android SDK to your project**
    * [Review this document to setup Android Studio](https://cdn.temasys.io/skylink/skylinksdk/android/latest/SkylinkSDK_Android_Studio_Setup.md)
    * Note the [Android SDK version required](https://cdn.temasys.io/skylink/skylinksdk/android/latest/Android_SDK_Version_Required.md) for the Temasys SDK for Android
 2. **Implement Listeners** in the class receiving events from the Temasys SDK.
@@ -36,7 +36,7 @@ This document is designed to help you start using the Temasys SDK for Android. T
        
        LifeCycleListener, MediaListener, RemotePeerListener{
        
-       /**Implementation of callbacks provided the listeners**/
+       /Implementation of callbacks provided the listeners/
        
        ... .....
        
