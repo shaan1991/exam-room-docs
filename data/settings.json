@@ -43,6 +43,10 @@
       "section": "Get started",
       "topics": [
         {
+          "title": "GETTING STARTED WITH THE TEMASYS SDK FOR WEB",
+          "slug": "temasys-sdk-for-web"
+        },
+        {
           "title": "CREATE AN ACCOUNT AND GENERATE AN APP KEY",
           "slug": "get-your-api-key"
         },
