@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="30px" viewBox="0 0 35 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>nav-client_sdks</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Live-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Dev-Center-3c" transform="translate(-372.000000, -648.000000)" stroke="#A0A8B8">
+            <g id="nav-client_sdks" transform="translate(372.000000, 648.000000)">
+                <path d="M5.2712,23.843 L15.9572,23.843" id="Stroke-1"></path>
+                <path d="M10.614,21.1614 L10.614,24.0314" id="Stroke-3"></path>
+                <path d="M1.4998,16.8147 L15.9568,16.8147" id="Stroke-5"></path>
+                <path d="M15.9578,20.9573 L2.7578,20.9573 C2.0658,20.9573 1.4998,20.3923 1.4998,19.7003 L1.4998,7.7573 C1.4998,7.0653 2.0658,6.5003 2.7578,6.5003 L18.4718,6.5003 C19.1628,6.5003 19.7288,7.0653 19.7288,7.7573 L19.7288,12.2723" id="Stroke-7"></path>
+                <path d="M23.4998,23.8118 C23.4998,24.5428 22.9008,25.1428 22.1688,25.1428 L17.2878,25.1428 C16.5568,25.1428 15.9568,24.5428 15.9568,23.8118 L15.9568,13.6068 C15.9568,12.8738 16.5568,12.2758 17.2878,12.2758 L22.1688,12.2758 C22.9008,12.2758 23.4998,12.8738 23.4998,13.6068 L23.4998,23.8118 Z" id="Stroke-9"></path>
+                <path d="M15.9568,15.4934 L23.4998,15.4934" id="Stroke-11"></path>
+                <path d="M15.9568,21.9241 L23.4998,21.9241" id="Stroke-13"></path>
+            </g>
+        </g>
+    </g>
+</svg>
