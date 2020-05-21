@@ -1,5 +1,5 @@
 ---
-title: TEMASYS SDK FOR ANDROID
+title: GETTING STARTED WITH THE TEMASYS SDK FOR ANDROID
 date: 2020-05-21
 slug: temasys-sdk-for-android
 
