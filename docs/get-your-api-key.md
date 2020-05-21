@@ -87,9 +87,3 @@ Click the View Keys button to view your app keys. Remember that you app keys are
 * [How to get support or contribute](https://temasys.io/support)
 * [SKYLINK Reference](iosAPIdocumentation.html)
 * [Safari & Internet Explorer WebRTC Plugin](webrtc-plugins-safari-IE.html)
-
-[![](images/logo-footer.png =78x36)](#top)
-
-[© RHYTHM 2019](http://themeforest.net/user/theme-guru/portfolio).
-
-Made with love for great people.
