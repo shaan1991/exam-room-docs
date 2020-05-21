@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="30px" viewBox="0 0 35 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-android</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Live-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dev-Center-3c" transform="translate(-714.000000, -606.000000)" stroke="#A0A8B8">
+            <g id="ic-android" transform="translate(714.000000, 606.000000)">
+                <g id="Group-2" transform="translate(2.333333, 9.000000)">
+                    <path d="M17,12 C17,7.02943725 13.1944204,3 8.5,3 C3.80557963,3 0,7.02943725 0,12 L17,12 Z" id="Oval-1952" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <rect id="Rectangle-2698" x="12.5" y="7.5" width="1" height="1"></rect>
+                    <rect id="Rectangle-2699" x="3.5" y="7.5" width="1" height="1"></rect>
+                    <path d="M3,3 L5,0" id="Path-6030" stroke-linecap="round" stroke-linejoin="round" transform="translate(4.000000, 1.500000) scale(-1, 1) translate(-4.000000, -1.500000) "></path>
+                    <path d="M12,3 L14,0" id="Path-6030" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

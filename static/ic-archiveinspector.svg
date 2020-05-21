@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="30px" viewBox="0 0 35 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-archiveinspector</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Live-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Dev-Center-3c" transform="translate(-1053.000000, -606.000000)" stroke="#A0A8B8">
+            <g id="ic-archiveinspector" transform="translate(1053.000000, 606.000000)">
+                <path d="M21.7090328,14 C21.7090328,19.3627632 17.3619189,23.7090328 12,23.7090328 C6.63723684,23.7090328 2.29096721,19.3627632 2.29096721,14 C2.29096721,8.63808111 6.63723684,4.29096721 12,4.29096721 C17.3619189,4.29096721 21.7090328,8.63808111 21.7090328,14 L21.7090328,14 Z" id="Stroke-308"></path>
+                <path d="M17.3493901,14 C17.3493901,16.954724 14.9542588,19.3493901 12,19.3493901 C9.04527603,19.3493901 6.65060994,16.954724 6.65060994,14 C6.65060994,11.0457412 9.04527603,8.65060994 12,8.65060994 C14.9542588,8.65060994 17.3493901,11.0457412 17.3493901,14 L17.3493901,14 Z" id="Stroke-308"></path>
+            </g>
+        </g>
+    </g>
+</svg>

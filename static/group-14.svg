@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="73" height="40" viewBox="0 0 73 40">
+    <defs>
+        <rect id="a" width="315" height="289" x="693" y="439" rx="3"/>
+        <rect id="b" width="315" height="73" x="693" y="439" rx="3"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(-925 -456)">
+            <use fill="#FFF" xlink:href="#a"/>
+            <rect width="314" height="288" x="693.5" y="439.5" stroke="#EAEAEA" rx="3"/>
+        </g>
+        <g transform="translate(-925 -456)">
+            <use fill="#F2F2F2" xlink:href="#b"/>
+            <rect width="314" height="72" x="693.5" y="439.5" stroke="#EAEAEA" rx="3"/>
+        </g>
+        <g stroke="#A0A8B8">
+            <path d="M47 32H19V10.796C19 9.804 18.37 9 17.594 9H10V3.067C10 1.93 10.9 1 12 1h42c1.1 0 2 .93 2 2.067V19h-9v13z"/>
+            <path d="M54 19V4H12v5h5.496c.821 0 1.487.804 1.487 1.796v17.241H47V19h7z"/>
+            <path stroke-linecap="round" d="M23 39h20"/>
+            <path d="M31 32.507v6.246M36 32.507v6.246"/>
+            <g stroke-linejoin="round">
+                <path d="M1 10.5C1 9.671 1.559 9 2.237 9h15.274C18.333 9 19 9.804 19 10.796V37.54c0 .806-.667 1.459-1.489 1.459H2.489C1.667 39 1 38.347 1 37.541v-27.04z"/>
+                <path d="M10 37a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                <path stroke-linecap="round" d="M9 11h3"/>
+                <path d="M3 33h14V13H3z"/>
+            </g>
+            <g stroke-linecap="round" stroke-linejoin="round">
+                <path d="M47 39.2h25v-15H47zM47 24h25v-5H47z"/>
+                <path d="M49.5 22.2a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/>
+            </g>
+        </g>
+    </g>
+</svg>
