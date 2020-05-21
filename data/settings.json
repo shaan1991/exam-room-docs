@@ -43,6 +43,10 @@
       "section": "Get started",
       "topics": [
         {
+          "title": "Get your API key",
+          "slug": "get-your-api-key"
+        },
+        {
           "title": "Get started for android",
           "slug": "get-started-android"
         }
