@@ -18,7 +18,9 @@ The first step to getting started is to create an account on the Temasys Console
 
 If you haven’t registered with Temasys, then please click the Register button.
 
-If you’re a registered user then you can log in with your username and password
+If you’re a registered user then you can log in with your username and password.
+
+![](/login-console.png)
 
 ## Step 2: Register and then Log In with your Username and Password
 
@@ -32,7 +34,7 @@ Check your email and click the Activate my account button in the confirmation em
 
 You’ll get a message that your account has been activated and you’ll be prompted to log in with your username and password.
 
-![Image not found](/register-console.png)
+![](/register-console.png)
 
 ## Step 3: Create an App
 
@@ -40,7 +42,7 @@ Click the Add App button to get started.
 
 Click the Get Started button to continue getting started.
 
-![Image not found](images/createaccount-APIkeygen/Console-AddApp.png)
+![](/console-addapp.png)
 
 ## Step 4: Select the Platforms and Payment Plan you Want to Use
 
@@ -50,31 +52,31 @@ Click a platform to select that platform. You can select multiple platforms. A s
 
 Click the Next button.
 
-![Image not found](images/createaccount-APIkeygen/Console-SelectPlatform.png)
+![](/console-selectplatform.png)
 
 ## Step 5: Select your Plan: Basic or Pro
 
 Choose whether you would like the Basic or Pro payment plan. Remember that you get 30-days free to sample the SDKs.
 
-![Image not found](images/createaccount-APIkeygen/Console-Basic-Pro.png)
+![](/console-basic-pro.png)
 
 ## Step 6: Enter Credit Card Information or Accept 30-days Trial
 
 Enter your credit card information. Prove that you are not a robot and then click Add Credit Card. Remember that you can continue without adding a credit card and accept a 30-days trial.
 
-![Image not found](images/createaccount-APIkeygen/Console-CreditCard.png)
+![](/console-creditcard.png)
 
 ## Step 7: View the Temasys Console Dashboard
 
 Enter your credit card information. Prove that you are not a robot and then click Add Credit Card. Remember that you can continue without adding a credit card and accept a 30-days trial.
 
-![Image not found](images/createaccount-APIkeygen/Console-Dasghboard.png)
+![](/console-dasghboard.png)
 
 ## Step 8: View your App Keys
 
 Click the View Keys button to view your app keys. Remember that you app keys are private and you should not share them with anyone.
 
-![Image not found](images/createaccount-APIkeygen/Console-Dasghboard.png)
+![](/console-dasghboard.png)
 
 ### ADDITIONAL RESOURCES
 
