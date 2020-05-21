@@ -43,6 +43,10 @@
       "section": "Get started",
       "topics": [
         {
+          "title": "GETTING STARTED WITH THE TEMASYS SDK FOR IOS",
+          "slug": "temasys-sdk-for-ios"
+        },
+        {
           "title": "GETTING STARTED WITH THE TEMASYS SDK FOR WEB",
           "slug": "temasys-sdk-for-web"
         },
