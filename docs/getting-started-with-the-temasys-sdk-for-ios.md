@@ -1,16 +1,16 @@
 ---
-title: GETTING STARTED WITH THE TEMASYS SDK FOR IOS
-date: 2020-05-20
-slug: temasys-sdk-for-ios
+title: SKYLINK SDK FOR IOS
+date: 2020-05-19
+slug: skylink-sdk-for-ios
 
 ---
-## GETTING STARTED WITH THE TEMASYS SDK FOR IOS
+## GETTING STARTED WITH THE SKYLINK SDK FOR IOS
 
 ### A step-by-step guide to embedding Real-Time Communication features into your iOS application
 
-This document is designed to help developers get started using the Temasys SDK for iOS to add video & voice calling, secure messaging, and more to their iOS application. Let’s get started!
+This document is designed to help developers get started using the Skylink SDK for iOS to add video & voice calling, secure messaging, and more to their iOS application. Let’s get started!
 
-## Step 1: Create an Account on the Temasys Console and Generate an App Key
+## Step 1: Create an Account on the Skylink Console and Generate an App Key
 
 [Here are instructions for creating an account and generating an App Key.](creating-an-account-generating-a-key.html)
 
@@ -25,7 +25,7 @@ We recommend you install the SDK via _Cocoapods_. If you don’t have _Cocoapods
 * Install cocoa pods in the terminal: $ **sudo gem install cocoapods.** Cocoapods website: cocoapods.org. Create new Xcode project
 * Close _Xcode_ (._xcodeproj_ file)
 
-## Step 3: Install the Temasys SDK for iOS
+## Step 3: Install the Skylink SDK for iOS
 
 * Run `pod init` in the terminal, where the ._xcodeprojfile_ file is located. This will create the podfile.
 * Add `pod "SKYLINK"` to your pod file, for the appropriate(s) target(s).
@@ -35,15 +35,15 @@ We recommend you install the SDK via _Cocoapods_. If you don’t have _Cocoapods
 ## Step 4: Configure Settings
 
 * Open the ._xcworkspace_ file and always work with this from now on (instead of the .xcodeproj file).
-* For each target where you plan to use the Temasys SDK, go to **Build settings** (make sure “all” is selected) > **Build** **Options** > **Enable bit code** and set it to _NO_. This will avoid the “_…does not contain_ bitcode” message.
+* For each target where you plan to use the Skylink SDK, go to **Build settings** (make sure “all” is selected) > **Build** **Options** > **Enable bit code** and set it to _NO_. This will avoid the “_…does not contain_ bitcode” message.
 * If you get the error “The resource could not be loaded because the App Transport Security policy requires the use of a secure connection”, edit your `info.plist` by adding an `NSAppTransportSecurity` key as Dictionary. Then, add a sub-key named NSAllowsArbitraryLoads as boolean set to YES.
 * Optionally, if you want your app to be able to process audio even when the users leaves the app or locks the device, just enable the VoIP background capability or the audio background capability in the target’s “capabilities” tab.
 
-## Step 5: Initializing the Temasys SDK for iOS
+## Step 5: Initializing the Skylink SDK for iOS
 
-The main idea is to prepare and create a connection to a room via the Temasys platform. After that, you will be able to send messages to the connection and implement the desired protocols to control what happens between the local device and the peers.
+The main idea is to prepare and create a connection to a room via the Skylink platform. After that, you will be able to send messages to the connection and implement the desired protocols to control what happens between the local device and the peers.
 
-Temasys SDK for iOS provides 3 classes:
+Skylink SDK for iOS provides 3 classes:
 
 * **SKYLINKConnection** – the main class, the one you will be sending messages to
 * **SKYLINKConnectionConfig** – to configure the SKYLINKConnection instance before you connect to a room
@@ -75,7 +75,7 @@ Here is an example connection code:
 
 ## Step 6: Implement Protocols
 
-The common next step is to implement protocols. The Temasys SDK for iOS provides 6 [protocols](https://cdn.temasys.com.sg/skylink/skylinksdk/ios/latest/docs/hierarchy.html):
+The common next step is to implement protocols. The Skylink SDK for iOS provides 6 [protocols](https://cdn.temasys.com.sg/skylink/skylinksdk/ios/latest/docs/hierarchy.html):
 
 * `SKYLINKConnectionLifeCycleDelegate`
 * `SKYLINKConnectionRemotePeerDelegate`
@@ -86,22 +86,22 @@ The common next step is to implement protocols. The Temasys SDK for iOS provides
 
 The `SKYLINKConnectionLifeCycleDelegate` and the `SKYLINKConnectionRemotePeerDelegate` are the most important. These will give you general details about the lifecycle and the peers that are joining and leaving your application. It is advised to implement them for all applications.
 
-**_MediaDelegates_** need to be implemented if you are using the Temasys SDK for simply adding video/voice communication capabilities. Similarly, **_MessagesDelegate_** and **_FileTransferDelegate_** can be implemented based on whether you require messaging and data transfer capabilities for your application. You get the idea!
+**_MediaDelegates_** need to be implemented if you are using the Skylink SDK for simply adding video/voice communication capabilities. Similarly, **_MessagesDelegate_** and **_FileTransferDelegate_** can be implemented based on whether you require messaging and data transfer capabilities for your application. You get the idea!
 
-That’s about it. We can’t wait to see what you’ll create with Temasys technology!
+That’s about it. We can’t wait to see what you’ll create with Skylink technology!
 
-We hope you enjoy getting started with the Temasys SDK for iOS! Have fun, share this and let us know if you run into any [issues!](home.html)
+We hope you enjoy getting started with the Skylink SDK for iOS! Have fun, share this and let us know if you run into any [issues!](home.html)
 
 ### ADDITIONAL RESOURCES
 
 Here are some useful links:
 
-[Temasys Developer Console](https://console.temasys.io/)
+[Skylink Developer Console](https://console.temasys.io/)
 
 [How to get support or contribute](https://temasys.io/support)
 
 **Sample App**
 
-Have a look at the iOS Sample App and its readme on Github. It provides simple example ways to build video calls, multi-party video calls, audio calls, chat rooms and file transfer rooms. [https://github.com/Temasys/SkylinkSDK-iOS-Sample](https://github.com/Temasys/SkylinkSDK-iOS-Sample "https://github.com/Temasys/SkylinkSDK-iOS-Sample")
+Have a look at the iOS Sample App and its readme on Github. It provides simple example ways to build video calls, multi-party video calls, audio calls, chat rooms and file transfer rooms. [https://github.com/Skylink/SkylinkSDK-iOS-Sample](https://github.com/Temasys/SkylinkSDK-iOS-Sample "https://github.com/Temasys/SkylinkSDK-iOS-Sample")
 
-This document applies to Temasys SkylinkSDK for iOS version 1.2.0
+This document applies to Skylink SkylinkSDK for iOS version 1.2.0
