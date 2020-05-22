@@ -6,6 +6,9 @@ slug: get-your-api-key
 ---
 ## CREATE AN ACCOUNT AND GENERATE AN APP KEY
 
+start by deleting this line - 
+
+
 The purpose of this document is to help you start using the Skylink SDKs for Web, Android, and iOS.
 
 To use Skylink SDKs, you’ll need a Temasys account and an app key that is required to connect to our servers and user our features.
