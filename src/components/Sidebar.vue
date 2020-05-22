@@ -54,7 +54,7 @@ import throttle from 'lodash/throttle'
 
 export default {
   components: {
-    GitLink
+    // GitLink
   },
   watch: {
     '$route' () {

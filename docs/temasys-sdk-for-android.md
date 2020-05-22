@@ -32,6 +32,7 @@ This document is designed to help you start using the Temasys SDK for Android. T
    5. Messaging : Implement `MessageListener`
    6. Recording : Implement `RecordingListener`
 
+   ```
    public class VideoCallFragment extends Fragment implements
 
    LifeCycleListener, MediaListener, RemotePeerListener{
@@ -41,8 +42,11 @@ This document is designed to help you start using the Temasys SDK for Android. T
    ... .....
 
    }
+   ```
+
 4. **Initialize SkylinkConnection** object. You can initialize the SkylinkConnection object by providing the App key and secret obtained from the Temasys Console and the config object (obtained in step 3). This registers your application key with the Temasys server.
 
+```
        SkylinkConnection skylinkConnection;
        
        .....
@@ -72,6 +76,8 @@ This document is designed to help you start using the Temasys SDK for Android. T
        .........
        
        }
+
+```
 5. **Connect to a room** using the Temasys SDK  
    A room is where two peers can join and interact with each other. The roomName can be any alpha-numeric value. The next example shows that two peers will enter a room named “MyRoom”, where they can communicate with one another:
 
@@ -81,7 +87,7 @@ This document is designed to help you start using the Temasys SDK for Android. T
 
    **Note** : The Temasys SDK also provides a more secure credentials-based method for connecting to a room. [Click here for information on generating credentials from your application server ](http://support.temasys.com.sg/support/solutions/articles/5000644837-how-do-i-connect-to-a-room-using-credentials-). We strongly recommend using the credentials method for production applications.
 6. **Verify** connectivity by implementing debug logging in the callbacks of LifeCycleListener
-
+   ```
        /***
        * Lifecycle Listener Callbacks -- triggered during events that happen during the SDK's lifecycle
        *//**
@@ -130,6 +136,7 @@ This document is designed to help you start using the Temasys SDK for Android. T
        break;
        }
        }
+   ```
 
 We hope this helps you get started with the Temasys SDK for Android! Have fun and please [contact us](https://temasys.io/contact-us/) if you need any assistance!
 
