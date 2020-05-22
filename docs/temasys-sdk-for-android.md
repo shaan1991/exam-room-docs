@@ -41,8 +41,6 @@ This document is designed to help you start using the Temasys SDK for Android. T
        ... .....
        
        }
-       
-       
 4. **Initialize SkylinkConnection** object. You can initialize the SkylinkConnection object by providing the App key and secret obtained from the Temasys Console and the config object (obtained in step 3). This registers your application key with the Temasys server.
 
        SkylinkConnection skylinkConnection;
