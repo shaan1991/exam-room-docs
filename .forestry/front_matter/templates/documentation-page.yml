@@ -15,9 +15,6 @@ fields:
   name: slug
   label: slug
 pages:
-- docs/editing-in-forestry.md
-- docs/get-started-with-using-skylinksdk-for-android.md
-- docs/get-the-video-image-bitmap-data-from-stream-object-received-in-skylink.md
 - docs/get-your-api-key.md
 - docs/getting-started-with-the-temasys-sdk-for-ios.md
 - docs/getting-started-with-the-temasys-sdk-for-web-1.md
