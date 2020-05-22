@@ -41,32 +41,9 @@ This document is designed to help you start using the Temasys SDK for Android. T
        ... .....
        
        }
-4. **Initialize SkylinkConfig** to specify the desired functionality from the Temasys SDK
-
-       private SkylinkConfig getSkylinkConfig() {
        
-       SkylinkConfig config = new SkylinkConfig();
        
-       config.setAudioVideoSendConfig(SkylinkConfig.AudioVideoConfig.AUDIO_AND_VIDEO);
-       
-       config.setAudioVideoReceiveConfig(SkylinkConfig.AudioVideoConfig.AUDIO_AND_VIDEO);
-       
-       config.setHasPeerMessaging(true); config.setHasFileTransfer(true);
-       
-       config.setHasDataTransfer(true);
-       
-       config.setTimeout(60);
-       
-       return config;
-       
-       }
-
-   **There are four configurations available for AudioVideoConfig**
-   * `SkylinkConfig.AudioVideoConfig.AUDIO_AND_VIDEO`
-   * `SkylinkConfig.AudioVideoConfig.NO_AUDIO_NO_VIDEO`
-   * `SkylinkConfig.AudioVideoConfig.AUDIO_ONLY`
-   * `SkylinkConfig.AudioVideoConfig.VIDEO_ONLY`
-5. **Initialize SkylinkConnection** object. You can initialize the SkylinkConnection object by providing the App key and secret obtained from the Temasys Console and the config object (obtained in step 3). This registers your application key with the Temasys server.
+4. **Initialize SkylinkConnection** object. You can initialize the SkylinkConnection object by providing the App key and secret obtained from the Temasys Console and the config object (obtained in step 3). This registers your application key with the Temasys server.
 
        SkylinkConnection skylinkConnection;
        
@@ -97,7 +74,7 @@ This document is designed to help you start using the Temasys SDK for Android. T
        .........
        
        }
-6. **Connect to a room** using the Temasys SDK  
+5. **Connect to a room** using the Temasys SDK  
    A room is where two peers can join and interact with each other. The roomName can be any alpha-numeric value. The next example shows that two peers will enter a room named “MyRoom”, where they can communicate with one another:
 
        // you will be connected to the room named "roomName" using a user name or user data object.
@@ -105,7 +82,7 @@ This document is designed to help you start using the Temasys SDK for Android. T
        skylinkConnection.connectToRoom("secret", "roomName", "userName");
 
    **Note** : The Temasys SDK also provides a more secure credentials-based method for connecting to a room. [Click here for information on generating credentials from your application server ](http://support.temasys.com.sg/support/solutions/articles/5000644837-how-do-i-connect-to-a-room-using-credentials-). We strongly recommend using the credentials method for production applications.
-7. **Verify** connectivity by implementing debug logging in the callbacks of LifeCycleListener
+6. **Verify** connectivity by implementing debug logging in the callbacks of LifeCycleListener
 
        /***
        * Lifecycle Listener Callbacks -- triggered during events that happen during the SDK's lifecycle
