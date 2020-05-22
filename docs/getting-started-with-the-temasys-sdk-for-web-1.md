@@ -1,20 +1,20 @@
 ---
-title: GETTING STARTED WITH THE TEMASYS SDK FOR WEB
-date: 2020-05-20
-slug: temasys-sdk-for-web
+title: SKYLINK SDK FOR WEB
+date: 2020-05-19
+slug: skylink-sdk-for-web
 
 ---
-GETTING STARTED WITH THE TEMASYS SDK FOR WEB
+## GETTING STARTED WITH THE SKYLINK SDK FOR WEB
 
-### A step-by-step guide to embedding Real-Time Communication features into your webapp or website
+## A step-by-step guide to embedding Real-Time Communication features into your webapp or website
 
-This document is designed to help developers get started using the Temasys SDK for the Web to add video & voice calling, secure messaging, file sharing and screen sharing features to any website.
+This document is designed to help developers get started using the Skylink SDK for the Web to add video & voice calling, secure messaging, file sharing and screen sharing features to any website.
 
-## Step 1: Create an Account on the Temasys Console and Generate an App Key
+### Step 1: Create an Account on the Skylink Console and Generate an App Key
 
 [Here are instructions for creating an account and generating an App Key.](creating-an-account-generating-a-key.html)
 
-## Step 2: Include Temasys SkylinkJS code into your website
+### Step 2: Include Skylink SkylinkJS code into your website
 
 #### Include Video and Audio Elements in HTML file
 
@@ -22,7 +22,7 @@ This document is designed to help developers get started using the Temasys SDK f
     
     <head>
     
-    <title>WebRTC with Temasys SkylinkJS</title>
+    <title>WebRTC with Skylink SkylinkJS</title>
     
     <script><script>
     
@@ -40,7 +40,7 @@ This document is designed to help developers get started using the Temasys SDK f
 
 The body contains a video tag to attach the video stream from the camera and an audio tag to attach the audio stream. We used a CSS transform call to mirror the image, so it looks and feels more natural. We muted the audio, so you don’t hear yourself speaking. The autoplay attribute is needed in some browsers where there are restrictions on autoplay. [https://developers.google.com/web/updates/2017/09/autoplay-policy-changes](https://developers.google.com/web/updates/2017/09/autoplay-policy-changes "https://developers.google.com/web/updates/2017/09/autoplay-policy-changes")
 
-## Step 3: Import
+### Step 3: Import
 
 #### Import from a path
 
@@ -54,11 +54,11 @@ Add to main.js
 
     <script src="./path/to/skylink.complete.js" type="module"></script>
 
-## Step 4: Initialise and then listen for events
+### Step 4: Initialise and then listen for events
 
 #### Instantiate Skylink and init with config
 
-For appKey: ‘XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXX’, use the appKey you generated in the Temasys Console.
+For appKey: ‘XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXX’, use the appKey you generated in the Skylink Console.
 
 Full list of init configuration options here: [initOptions](http://cdn.temasys.io/skylink/skylinkjs/2.x/docs/global.html#initOptions)
 
@@ -116,7 +116,7 @@ Full list of joinRoom config options here: [joinRoomOptions](http://cdn.temasys.
     
     .catch();
 
-## Step 5:Subscribing and Unsubscribing to an event
+### Step 5:Subscribing and Unsubscribing to an event
 
 #### Listen on ‘peerJoined’ event with isSelf=true for self join room success outcome
 
@@ -156,7 +156,7 @@ Full list of joinRoom config options here: [joinRoomOptions](http://cdn.temasys.
 
 Skylink 2.x incoming stream will be either an audio stream or a video stream but not both.
 
-[**incomingStream**](http://cdn.temasys.io/skylink/skylinkjs/latest/doc/classes/Skylink.html#event_incomingStream)**:** This event is fired after peerJoined when Temasys SkylinkJS begins to receive the audio and video streams from that peer. This peer could also be yourself (the local user) – in which case the event is fired when the user grants access to his microphone and/or camera and joins a room successfully. In this example, we use the _attachMediaStream()_ function of our enhanced [AdapterJS](http://github.com/Temasys/AdapterJS) library to feed this stream into our previously created video tag in Step 5. Why do we use this function? The different browser vendors have slightly different ways to do this and attachMediaStream() enables us to abstract this.
+[**incomingStream**](http://cdn.temasys.io/skylink/skylinkjs/latest/doc/classes/Skylink.html#event_incomingStream)**:** This event is fired after peerJoined when Skylink SkylinkJS begins to receive the audio and video streams from that peer. This peer could also be yourself (the local user) – in which case the event is fired when the user grants access to his microphone and/or camera and joins a room successfully. In this example, we use the _attachMediaStream()_ function of our enhanced [AdapterJS](http://github.com/Temasys/AdapterJS) library to feed this stream into our previously created video tag in Step 5. Why do we use this function? The different browser vendors have slightly different ways to do this and attachMediaStream() enables us to abstract this.
 
     SkylinkEventManager.addEventListener(SkylinkConstants.EVENTS.ON_INCOMING_STREAM, (evt) => {
     
@@ -236,22 +236,22 @@ Toggle console logging on and off with the setLevel method. For more logger opti
 
     SkylinkLogger.setLevel(SkylinkLogger.logLevels.DEBUG, storeLogs);
 
-## Step 6: Get ready to impress!
+### Step 6: Get ready to impress!
 
 You’ve created a simple video conference app. Easy, right? Now explore all the ways that you can real-time interactions to your website. You can find an overview of all the methods and events Skylink offers (like lockRoom, disableAudio or disableVideo) in the [API documentation.](https://cdn.temasys.io/skylink/skylinkjs/latest/docs/index.html)
 
 Here is another example Codepen that we’ve created that shows how you can create a very simple audio/video conference with JavaScript client-side code, with no additional server code required
 
-See the Pen [WebRTC Audio/Video conference demo with Temasys SkylinkJS](https://codepen.io/temasys/pen/GogabE/) by Temasys ([@temasys](https://codepen.io/temasys)) on [CodePen](www.codepen.io).
+See the Pen [WebRTC Audio/Video conference demo with Skylink SkylinkJS](https://codepen.io/temasys/pen/GogabE/) by Skylink ([@skylink](https://codepen.io/temasys)) on [CodePen](www.codepen.io).
 
-To further demonstrate the possibilities and flexibility of Temasys SkylinkJS, we have also created a more elaborate demo created with the help of [Facebook’s React](http://facebook.github.io/react/) at [http://getaroom.io.](http://getaroom.io. "http://getaroom.io.") Check it out, share it, and use it if you like it.
+To further demonstrate the possibilities and flexibility of Skylink SkylinkJS, we have also created a more elaborate demo created with the help of [Facebook’s React](http://facebook.github.io/react/) at [http://getaroom.io.](http://getaroom.io. "http://getaroom.io.") Check it out, share it, and use it if you like it.
 
-We hope you’ve enjoyed getting started with the Temasys Web SDK! Have fun, share this and let us know if you run into any [issues!](home.html)
+We hope you’ve enjoyed getting started with the Skylink Web SDK! Have fun, share this and let us know if you run into any [issues!](home.html)
 
 ### ADDITIONAL RESOURCES
 
-* [Temasys Developer Console](https://console.temasys.io/)
+* [Skylink Developer Console](https://console.temasys.io/)
 * [Skylink API Documentation](https://cdn.temasys.io/skylink/skylinkjs/latest/docs/index.html)
-* [Temasys SkylinkJS version history](https://github.com/Temasys/SkylinkJS/releases)
-* [Temasys SkylinkJS source code on Github](http://github.com/Temasys/SkylinkJS) (demos [here](https://github.com/Temasys/SkylinkJS/tree/0.6.x/master/demo))
+* [SkylinkJS version history](https://github.com/Temasys/SkylinkJS/releases)
+* [SkylinkJS source code on Github](http://github.com/Temasys/SkylinkJS) (demos [here](https://github.com/Temasys/SkylinkJS/tree/0.6.x/master/demo))
 * [How to get support or contribute](https://temasys.io/support)
