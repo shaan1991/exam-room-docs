@@ -21,7 +21,5 @@ pages:
 - docs/get-your-api-key.md
 - docs/getting-started-with-the-temasys-sdk-for-ios.md
 - docs/getting-started-with-the-temasys-sdk-for-web-1.md
-- docs/getting-started-with-the-temasys-sdk-for-web.md
-- docs/how-do-i-send-audio-level-events-for-each-peer.md
 - docs/temasys-sdk-for-android.md
 - docs/test-doc.md
