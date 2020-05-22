@@ -32,15 +32,15 @@ This document is designed to help you start using the Skylink SDK for Android. T
    5. Messaging : Implement `MessageListener`
    6. Recording : Implement `RecordingListener`
 
-       public class VideoCallFragment extends Fragment implements
-       
-       LifeCycleListener, MediaListener, RemotePeerListener{
-       
-       /Implementation of callbacks provided the listeners/
-       
-       ... .....
-       
-       }
+      public class VideoCallFragment extends Fragment implements
+
+      LifeCycleListener, MediaListener, RemotePeerListener{
+
+      /Implementation of callbacks provided the listeners/
+
+      ... .....
+
+      }
 4. **Initialize SkylinkConnection** object. You can initialize the SkylinkConnection object by providing the App key and secret obtained from the Skylink Console and the config object (obtained in step 3). This registers your application key with the Skylink server.
 
            SkylinkConnection skylinkConnection;
@@ -72,9 +72,7 @@ This document is designed to help you start using the Skylink SDK for Android. T
            .........
            
            }
-    
-
-1. **Connect to a room** using the Skylink SDK  
+5. **Connect to a room** using the Skylink SDK  
    A room is where two peers can join and interact with each other. The roomName can be any alpha-numeric value. The next example shows that two peers will enter a room named “MyRoom”, where they can communicate with one another:
 
        // you will be connected to the room named "roomName" using a user name or user data object.
@@ -82,7 +80,7 @@ This document is designed to help you start using the Skylink SDK for Android. T
        skylinkConnection.connectToRoom("secret", "roomName", "userName");
 
    **Note** : The Skylink SDK also provides a more secure credentials-based method for connecting to a room. [Click here for information on generating credentials from your application server ](http://support.temasys.com.sg/support/solutions/articles/5000644837-how-do-i-connect-to-a-room-using-credentials-). We strongly recommend using the credentials method for production applications.
-2. **Verify** connectivity by implementing debug logging in the callbacks of LifeCycleListener
+6. **Verify** connectivity by implementing debug logging in the callbacks of LifeCycleListener
 
            /***
            * Lifecycle Listener Callbacks -- triggered during events that happen during the SDK's lifecycle
