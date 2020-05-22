@@ -57,10 +57,6 @@
         {
           "title": "CREATE AN ACCOUNT AND GENERATE AN APP KEY",
           "slug": "get-your-api-key"
-        },
-        {
-          "title": "Get started for android",
-          "slug": "get-started-android"
         }
       ]
     },
