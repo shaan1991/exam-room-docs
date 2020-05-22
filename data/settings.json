@@ -1,45 +1,6 @@
 {
   "sidebar": [
     {
-      "section": "",
-      "topics": [
-        {
-          "title": "Get the video image bitmap data from Stream object",
-          "slug": "video-image-bitmap"
-        }
-      ]
-    },
-    {
-      "section": "Introduction",
-      "topics": [
-        {
-          "title": "Getting started",
-          "slug": "getting-started"
-        }
-      ]
-    },
-    {
-      "section": "Setup",
-      "topics": [
-        {
-          "title": "Audio-level",
-          "slug": "audio-level"
-        },
-        {
-          "title": "API docs",
-          "slug": "api-docs-main"
-        },
-        {
-          "title": "Theme configuration",
-          "slug": "theme-configuration"
-        },
-        {
-          "title": "Forestry CMS",
-          "slug": "forestry-cms"
-        }
-      ]
-    },
-    {
       "section": "Get started",
       "topics": [
         {
@@ -57,19 +18,6 @@
         {
           "title": "CREATE AN ACCOUNT AND GENERATE AN APP KEY",
           "slug": "get-your-api-key"
-        }
-      ]
-    },
-    {
-      "section": "SDK for web",
-      "topics": [
-        {
-          "title": "Test doc",
-          "slug": "test-doc"
-        },
-        {
-          "title": "sdk for web",
-          "slug": "sdk-for-web"
         }
       ]
     }
