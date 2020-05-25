@@ -1,5 +1,5 @@
 ---
-title: Getting Started Guide for the Android
+title: Getting Started Guide for Android
 date: 2020-05-20
 slug: skylink-sdk-for-android
 
