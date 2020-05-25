@@ -1,5 +1,5 @@
 ---
-title: SKYLINK SDK FOR ANDROID
+title: Getting Started Guide for the Android
 date: 2020-05-20
 slug: skylink-sdk-for-android
 
@@ -14,7 +14,7 @@ This document is designed to help you start using the Skylink SDK for Android. T
 
 ### Step 1: Create an Account on the Skylink Console and Generate an App Key
 
-[Here are instructions for creating an account and generating an App Key.](creating-an-account-generating-a-key.html)
+[Here are instructions for creating an account and generating an App Key.](https://qdex-hnn1dcqna.instant.forestry.io/get-your-api-key)
 
 ### Step 2: Begin Your Project by Performing the Following Substeps
 
@@ -135,10 +135,6 @@ We hope this helps you get started with the Skylink SDK for Android! Have fun an
 
 ### ADDITIONAL RESOURCES
 
-To further demonstrate the possibilities and flexibility of the Skylink SDK for Android, please refer to our [simple demo application](https://github.com/Temasys/skylink-android-sample)
+[Getting Started Guide for the Web](https://qdex-hnn1dcqna.instant.forestry.io/skylink-sdk-for-web)
 
-[Skylink  Developer Console](https://console.temasys.io/)
-
-[Getting Started Guide for the Web](temasys-rtc-getting-started-web-sdk.html)
-
-[Getting Started Guide for iOS](temasys-rtc-getting-started-ios-sdk.html)
+[Getting Started Guide for iOS](https://qdex-hnn1dcqna.instant.forestry.io/skylink-sdk-for-ios)
