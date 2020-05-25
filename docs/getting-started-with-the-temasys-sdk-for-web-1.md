@@ -12,7 +12,7 @@ This document is designed to help developers get started using the Skylink SDK f
 
 ### Step 1: Create an Account on the Skylink Console and Generate an App Key
 
-[Here are instructions for creating an account and generating an App Key.](https://skylink-docs.netlify.app/get-your-api-key/)
+[Here are instructions for creating an account and generating an App Key.](https://qdex-hnn1dcqna.instant.forestry.io/get-your-api-key)
 
 ### Step 2: Include Skylink SkylinkJS code into your website
 
