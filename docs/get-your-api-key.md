@@ -1,5 +1,5 @@
 ---
-title: GET YOUR API KEY
+title: Get your API key
 date: 2020-05-20
 slug: get-your-api-key
 
