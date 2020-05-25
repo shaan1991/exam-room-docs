@@ -1,7 +1,7 @@
 ---
 title: Getting Started Guide for Android
 date: 2020-05-20
-slug: skylink-sdk-for-android
+slug: start-sdk-for-android
 
 ---
 ## GETTING STARTED WITH THE SKYLINK SDK FOR ANDROID
