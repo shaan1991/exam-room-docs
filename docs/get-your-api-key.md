@@ -14,7 +14,7 @@ Then you’ll be able to use our world-class SDKs to add video, audio, chat, and
 
 ## Step 1: Create an Account on the Skylink Console
 
-The first step to getting started is to create an account on the Skylink Console here: [https://console.examroom.ai/register.](https://console.examroom.ai/register. "https://console.examroom.ai/register.")
+The first step to getting started is to create an account on the Skylink Console here: [https://console.examroom.ai/register.](https://console.temasys.io/register "https://console.examroom.ai/register.")
 
 If you haven’t registered with Skylink, then please click the Register button.
 
@@ -77,13 +77,3 @@ Enter your credit card information. Prove that you are not a robot and then clic
 Click the View Keys button to view your app keys. Remember that you app keys are private and you should not share them with anyone.
 
 ![](/console-dasghboard.png)
-
-### ADDITIONAL RESOURCES
-
-* [Skylink Developer Console](https://console.temasys.io/)
-* [Skylink API Documentation](https://cdn.temasys.io/skylink/skylinkjs/latest/doc/classes/Skylink.html)
-* [Skylink SkylinkJS version history](https://github.com/Temasys/SkylinkJS/releases)
-* [Skylink SkylinkJS source code on Github](http://github.com/Temasys/SkylinkJS) (demos [here](https://github.com/Temasys/SkylinkJS/tree/0.6.x/master/demo))
-* [How to get support or contribute](https://temasys.io/support)
-* [SKYLINK Reference](iosAPIdocumentation.html)
-* [Safari & Internet Explorer WebRTC Plugin](webrtc-plugins-safari-IE.html)
