@@ -92,16 +92,8 @@ That’s about it. We can’t wait to see what you’ll create with Skylink tech
 
 We hope you enjoy getting started with the Skylink SDK for iOS! Have fun, share this and let us know if you run into any [issues!](home.html)
 
-### ADDITIONAL RESOURCES
-
-Here are some useful links:
-
-[Skylink Developer Console](https://console.temasys.io/)
-
-[How to get support or contribute](https://temasys.io/support)
-
 **Sample App**
 
 Have a look at the iOS Sample App and its readme on Github. It provides simple example ways to build video calls, multi-party video calls, audio calls, chat rooms and file transfer rooms. [https://github.com/Skylink/SkylinkSDK-iOS-Sample](https://github.com/Temasys/SkylinkSDK-iOS-Sample "https://github.com/Temasys/SkylinkSDK-iOS-Sample")
 
-This document applies to Skylink SkylinkSDK for iOS version 1.2.0
+This document applies to SkylinkSDK for iOS version 1.2.0
