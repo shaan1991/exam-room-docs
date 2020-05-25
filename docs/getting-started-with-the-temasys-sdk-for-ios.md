@@ -1,7 +1,7 @@
 ---
 title: Getting Started Guide for iOS
 date: 2020-05-19
-slug: skylink-sdk-for-ios
+slug: start-sdk-for-ios
 
 ---
 ## GETTING STARTED WITH THE SKYLINK SDK FOR IOS
