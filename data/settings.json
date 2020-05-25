@@ -4,20 +4,20 @@
       "section": "Get started",
       "topics": [
         {
-          "title": "Getting Started Guide for Android",
-          "slug": "start-sdk-for-android"
-        },
-        {
-          "title": "Getting Started Guide for iOS",
-          "slug": "start-sdk-for-ios"
+          "title": "Get your API key",
+          "slug": "get-your-api-key"
         },
         {
           "title": "Getting Started Guide for the Web",
           "slug": "start-sdk-for-web"
         },
         {
-          "title": "Get your API key",
-          "slug": "get-your-api-key"
+          "title": "Getting Started Guide for Android",
+          "slug": "start-sdk-for-android"
+        },
+        {
+          "title": "Getting Started Guide for iOS",
+          "slug": "start-sdk-for-ios"
         }
       ]
     }
