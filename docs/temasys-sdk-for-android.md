@@ -135,6 +135,6 @@ We hope this helps you get started with the Skylink SDK for Android! Have fun an
 
 ### ADDITIONAL RESOURCES
 
-[Getting Started Guide for the Web](https://qdex-hnn1dcqna.instant.forestry.io/skylink-sdk-for-web)
+[Getting Started Guide for the Web](https://qdex-hnn1dcqna.instant.forestry.io/start-sdk-for-web)
 
-[Getting Started Guide for iOS](https://qdex-hnn1dcqna.instant.forestry.io/skylink-sdk-for-ios)
+[Getting Started Guide for iOS](https://qdex-hnn1dcqna.instant.forestry.io/start-sdk-for-ios)
