@@ -1,5 +1,5 @@
 ---
-title: SKYLINK SDK FOR WEB
+title: Getting Started Guide for the Web
 date: 2020-05-19
 slug: skylink-sdk-for-web
 
