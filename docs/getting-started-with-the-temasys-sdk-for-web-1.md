@@ -12,7 +12,7 @@ This document is designed to help developers get started using the Skylink SDK f
 
 ### Step 1: Create an Account on the Skylink Console and Generate an App Key
 
-[Here are instructions for creating an account and generating an App Key.](creating-an-account-generating-a-key.html)
+[Here are instructions for creating an account and generating an App Key.](https://skylink-docs.netlify.app/get-your-api-key/)
 
 ### Step 2: Include Skylink SkylinkJS code into your website
 
@@ -242,16 +242,8 @@ You’ve created a simple video conference app. Easy, right? Now explore all the
 
 Here is another example Codepen that we’ve created that shows how you can create a very simple audio/video conference with JavaScript client-side code, with no additional server code required
 
-See the Pen [WebRTC Audio/Video conference demo with Skylink SkylinkJS](https://codepen.io/temasys/pen/GogabE/) by Skylink ([@skylink](https://codepen.io/temasys)) on [CodePen](www.codepen.io).
+See the Pen [WebRTC Audio/Video conference demo with SkylinkJS](https://codepen.io/temasys/pen/GogabE/) by Skylink ([@skylink](https://codepen.io/temasys)) on CodePen.
 
-To further demonstrate the possibilities and flexibility of Skylink SkylinkJS, we have also created a more elaborate demo created with the help of [Facebook’s React](http://facebook.github.io/react/) at [http://getaroom.io.](http://getaroom.io. "http://getaroom.io.") Check it out, share it, and use it if you like it.
+To further demonstrate the possibilities and flexibility of SkylinkJS, we have also created a more elaborate demo created with the help of [Facebook’s React](http://facebook.github.io/react/) at [http://getaroom.io.](http://getaroom.io. "http://getaroom.io.") Check it out, share it, and use it if you like it.
 
 We hope you’ve enjoyed getting started with the Skylink Web SDK! Have fun, share this and let us know if you run into any [issues!](home.html)
-
-### ADDITIONAL RESOURCES
-
-* [Skylink Developer Console](https://console.temasys.io/)
-* [Skylink API Documentation](https://cdn.temasys.io/skylink/skylinkjs/latest/docs/index.html)
-* [SkylinkJS version history](https://github.com/Temasys/SkylinkJS/releases)
-* [SkylinkJS source code on Github](http://github.com/Temasys/SkylinkJS) (demos [here](https://github.com/Temasys/SkylinkJS/tree/0.6.x/master/demo))
-* [How to get support or contribute](https://temasys.io/support)
