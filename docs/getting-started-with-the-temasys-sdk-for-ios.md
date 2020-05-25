@@ -1,5 +1,5 @@
 ---
-title: Getting Started Guide for ios
+title: Getting Started Guide for iOS
 date: 2020-05-19
 slug: skylink-sdk-for-ios
 
