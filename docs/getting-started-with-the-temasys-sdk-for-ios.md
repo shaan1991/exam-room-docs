@@ -12,7 +12,7 @@ This document is designed to help developers get started using the Skylink SDK f
 
 ## Step 1: Create an Account on the Skylink Console and Generate an App Key
 
-[Here are instructions for creating an account and generating an App Key.](creating-an-account-generating-a-key.html)
+[Here are instructions for creating an account and generating an App Key.](https://qdex-hnn1dcqna.instant.forestry.io/get-your-api-key)
 
 ## Step 2: Set up a new Xcode project workspace
 
