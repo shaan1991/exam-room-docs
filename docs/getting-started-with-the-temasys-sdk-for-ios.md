@@ -75,7 +75,7 @@ Here is an example connection code:
 
 ### Step 6: Implement Protocols
 
-The common next step is to implement protocols. The Skylink SDK for iOS provides 6 [protocols](https://cdn.temasys.com.sg/skylink/skylinksdk/ios/latest/docs/hierarchy.html):
+The common next step is to implement protocols. The Skylink SDK for iOS provides 6 protocols:
 
 * `SKYLINKConnectionLifeCycleDelegate`
 * `SKYLINKConnectionRemotePeerDelegate`
@@ -89,11 +89,3 @@ The `SKYLINKConnectionLifeCycleDelegate` and the `SKYLINKConnectionRemotePeerDel
 **_MediaDelegates_** need to be implemented if you are using the Skylink SDK for simply adding video/voice communication capabilities. Similarly, **_MessagesDelegate_** and **_FileTransferDelegate_** can be implemented based on whether you require messaging and data transfer capabilities for your application. You get the idea!
 
 That’s about it. We can’t wait to see what you’ll create with Skylink technology!
-
-We hope you enjoy getting started with the Skylink SDK for iOS! Have fun, share this and let us know if you run into any [issues!](home.html)
-
-**Sample App**
-
-Have a look at the iOS Sample App and its readme on Github. It provides simple example ways to build video calls, multi-party video calls, audio calls, chat rooms and file transfer rooms. [https://github.com/Skylink/SkylinkSDK-iOS-Sample](https://github.com/Temasys/SkylinkSDK-iOS-Sample "https://github.com/Temasys/SkylinkSDK-iOS-Sample")
-
-This document applies to SkylinkSDK for iOS version 1.2.0
