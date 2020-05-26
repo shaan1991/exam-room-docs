@@ -14,7 +14,7 @@ This document is designed to help developers get started using the Skylink SDK f
 
 [Here are instructions for creating an account and generating an App Key.](https://qdex-hnn1dcqna.instant.forestry.io/get-your-api-key)
 
-### Step 2: Include Skylink SkylinkJS code into your website
+### Step 2: Include SkylinkJS code into your website
 
 #### Include Video and Audio Elements in HTML file
 
