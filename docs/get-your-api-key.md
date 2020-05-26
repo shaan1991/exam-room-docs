@@ -14,7 +14,7 @@ Then you’ll be able to use our world-class SDKs to add video, audio, chat, and
 
 ## Step 1: Create an Account on the Skylink Console
 
-The first step to getting started is to create an account on the Skylink Console here: [https://console.examroom.ai/register.](https://console.temasys.io/register "https://console.examroom.ai/register.")
+The first step to getting started is to create an account on the Skylink Console.
 
 If you haven’t registered with Skylink, then please click the Register button.
 
