@@ -6,7 +6,7 @@ slug: start-sdk-for-web
 ---
 ## GETTING STARTED WITH THE SKYLINK SDK FOR WEB
 
-## A step-by-step guide to embedding Real-Time Communication features into your webapp or website
+### A step-by-step guide to embedding Real-Time Communication features into your webapp or website
 
 This document is designed to help developers get started using the Skylink SDK for the Web to add video & voice calling, secure messaging, file sharing and screen sharing features to any website.
 
