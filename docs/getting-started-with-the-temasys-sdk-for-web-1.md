@@ -156,7 +156,7 @@ Full list of joinRoom config options here: [joinRoomOptions](http://cdn.temasys.
 
 Skylink 2.x incoming stream will be either an audio stream or a video stream but not both.
 
-**incomingStream:** This event is fired after peerJoined when Skylink SkylinkJS begins to receive the audio and video streams from that peer. This peer could also be yourself (the local user) – in which case the event is fired when the user grants access to his microphone and/or camera and joins a room successfully. In this example, we use the _attachMediaStream()_ function of our enhanced AdapterJS library to feed this stream into our previously created video tag in Step 5. Why do we use this function? The different browser vendors have slightly different ways to do this and attachMediaStream() enables us to abstract this.
+**incomingStream:** This event is fired after peerJoined when SkylinkJS begins to receive the audio and video streams from that peer. This peer could also be yourself (the local user) – in which case the event is fired when the user grants access to his microphone and/or camera and joins a room successfully. In this example, we use the _attachMediaStream()_ function of our enhanced AdapterJS library to feed this stream into our previously created video tag in Step 5. Why do we use this function? The different browser vendors have slightly different ways to do this and attachMediaStream() enables us to abstract this.
 
     SkylinkEventManager.addEventListener(SkylinkConstants.EVENTS.ON_INCOMING_STREAM, (evt) => {
     
@@ -244,4 +244,4 @@ Here is another example Codepen that we’ve created that shows how you can crea
 
 See the Pen [WebRTC Audio/Video conference demo with SkylinkJS](https://codepen.io/temasys/pen/GogabE/) by Skylink ([@skylink](https://codepen.io/temasys)) on CodePen.
 
-To further demonstrate the possibilities and flexibility of SkylinkJS, we have also created a more elaborate demo created with the help of [Facebook’s React](http://facebook.github.io/react/) at [http://getaroom.io.](http://getaroom.io. "http://getaroom.io.") Check it out, share it, and use it if you like it.
+To further demonstrate the possibilities and flexibility of SkylinkJS, we have also created a more elaborate demo created with the help of [Facebook’s React](http://facebook.github.io/react/). Check it out, share it, and use it if you like it.
