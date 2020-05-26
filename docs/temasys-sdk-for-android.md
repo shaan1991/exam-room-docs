@@ -19,8 +19,6 @@ This document is designed to help you start using the Skylink SDK for Android. T
 ### Step 2: Begin Your Project by Performing the Following Substeps
 
 1. **Add the Android SDK to your project**
-   * [Review this document to setup Android Studio](https://cdn.temasys.io/skylink/skylinksdk/android/latest/SkylinkSDK_Android_Studio_Setup.md)
-   * Note the [Android SDK version required](https://cdn.temasys.io/skylink/skylinksdk/android/latest/Android_SDK_Version_Required.md) for the Skylink SDK for Android
 2. **Implement Listeners** in the class receiving events from the Skylink SDK.
 
    **Note:** For older versions just replace “latest” in the URL with the SDK version.
@@ -79,7 +77,7 @@ This document is designed to help you start using the Skylink SDK for Android. T
        
        skylinkConnection.connectToRoom("secret", "roomName", "userName");
 
-   **Note** : The Skylink SDK also provides a more secure credentials-based method for connecting to a room. [Click here for information on generating credentials from your application server ](http://support.temasys.com.sg/support/solutions/articles/5000644837-how-do-i-connect-to-a-room-using-credentials-). We strongly recommend using the credentials method for production applications.
+   **Note** : The Skylink SDK also provides a more secure credentials-based method for connecting to a room. We strongly recommend using the credentials method for production applications.
 6. **Verify** connectivity by implementing debug logging in the callbacks of LifeCycleListener
 
            /***
@@ -131,7 +129,7 @@ This document is designed to help you start using the Skylink SDK for Android. T
            }
            }
 
-We hope this helps you get started with the Skylink SDK for Android! Have fun and please [contact us](https://temasys.io/contact-us/) if you need any assistance!
+We hope this helps you get started with the Skylink SDK for Android! Have fun and please [contact us](https://examroom.netlify.app/contact-us/) if you need any assistance!
 
 ### ADDITIONAL RESOURCES
 
