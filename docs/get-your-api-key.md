@@ -20,8 +20,6 @@ If you haven’t registered with Skylink, then please click the Register button.
 
 If you’re a registered user then you can log in with your username and password.
 
-![](/login-console.png)
-
 ## Step 2: Register and then Log In with your Username and Password
 
 In the Register window enter your personal details and a password.
@@ -34,15 +32,11 @@ Check your email and click the Activate my account button in the confirmation em
 
 You’ll get a message that your account has been activated and you’ll be prompted to log in with your username and password.
 
-![](/register-console.png)
-
 ## Step 3: Create an App
 
 Click the Add App button to get started.
 
 Click the Get Started button to continue getting started.
-
-![](/console-addapp.png)
 
 ## Step 4: Select the Platforms and Payment Plan you Want to Use
 
@@ -52,28 +46,18 @@ Click a platform to select that platform. You can select multiple platforms. A s
 
 Click the Next button.
 
-![](/console-selectplatform.png)
-
 ## Step 5: Select your Plan: Basic or Pro
 
 Choose whether you would like the Basic or Pro payment plan. Remember that you get 30-days free to sample the SDKs.
-
-![](/console-basic-pro.png)
 
 ## Step 6: Enter Credit Card Information or Accept 30-days Trial
 
 Enter your credit card information. Prove that you are not a robot and then click Add Credit Card. Remember that you can continue without adding a credit card and accept a 30-days trial.
 
-![](/console-creditcard.png)
-
 ## Step 7: View the Skylink Console Dashboard
 
 Enter your credit card information. Prove that you are not a robot and then click Add Credit Card. Remember that you can continue without adding a credit card and accept a 30-days trial.
 
-![](/console-dasghboard.png)
-
 ## Step 8: View your App Keys
 
 Click the View Keys button to view your app keys. Remember that you app keys are private and you should not share them with anyone.
-
-![](/console-dasghboard.png)
