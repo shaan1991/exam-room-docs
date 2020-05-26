@@ -23,7 +23,7 @@ This document is designed to help you start using the Skylink SDK for Android. T
    * Note the [Android SDK version required](https://cdn.temasys.io/skylink/skylinksdk/android/latest/Android_SDK_Version_Required.md) for the Skylink SDK for Android
 2. **Implement Listeners** in the class receiving events from the Skylink SDK.
 
-   **Note:** A list of listeners available in the current release and the callbacks they provide can be found [here](http://cdn.temasys.io/skylink/skylinksdk/android/latest/doc/reference/packages.html). For older versions just replace “latest” in the URL with the SDK version.
+   **Note:** For older versions just replace “latest” in the URL with the SDK version.
 3. **Always implement LifeCycleListener and RemotePeerListener.** The “listeners” are as follows:
    1. Audio Call : Implement `MediaListener`
    2. Video Call : Implement `MediaListener`
