@@ -89,3 +89,4 @@ The `SKYLINKConnectionLifeCycleDelegate` and the `SKYLINKConnectionRemotePeerDel
 **_MediaDelegates_** need to be implemented if you are using the Skylink SDK for simply adding video/voice communication capabilities. Similarly, **_MessagesDelegate_** and **_FileTransferDelegate_** can be implemented based on whether you require messaging and data transfer capabilities for your application. You get the idea!
 
 That’s about it. We can’t wait to see what you’ll create with Skylink technology!
+
