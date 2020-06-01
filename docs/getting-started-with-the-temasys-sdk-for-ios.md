@@ -1,5 +1,5 @@
 ---
-title: Getting Started Guide for iOS
+title: Getting Started Guide for IOS
 date: 2020-05-19
 slug: start-sdk-for-ios
 
