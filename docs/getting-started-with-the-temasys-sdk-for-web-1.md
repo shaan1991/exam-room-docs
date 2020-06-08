@@ -60,7 +60,7 @@ Add to main.js
 
 For appKey: ‘XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXX’, use the appKey you generated in the Skylink Console.
 
-Full list of init configuration options here: [initOptions](http://cdn.temasys.io/skylink/skylinkjs/2.x/docs/global.html#initOptions)
+Full list of init configuration options here: 
 
     const config = {
     
@@ -82,7 +82,7 @@ Full list of init configuration options here: [initOptions](http://cdn.temasys.i
 
 Configure by setting audio: true and video: true to access camera and microphone.
 
-Full list of joinRoom config options here: [joinRoomOptions](http://cdn.temasys.io/skylink/skylinkjs/2.x/docs/global.html#joinRoomOptions)
+Full list of joinRoom config options here: 
 
     const joinRoomOptions = {
     
@@ -232,13 +232,13 @@ Unsubscribe to the peer joined event with the code below.
 
 #### Logging
 
-Toggle console logging on and off with the setLevel method. For more logger options refer to: [SkylinkLogger](https://cdn.temasys.io/skylink/skylinkjs/latest/docs/SkylinkLogger.html)
+Toggle console logging on and off with the setLevel method. For more logger options refer to: 
 
     SkylinkLogger.setLevel(SkylinkLogger.logLevels.DEBUG, storeLogs);
 
 ### Step 6: Get ready to impress!
 
-You’ve created a simple video conference app. Easy, right? Now explore all the ways that you can real-time interactions to your website. You can find an overview of all the methods and events Skylink offers (like lockRoom, disableAudio or disableVideo) in the [API documentation.](https://cdn.temasys.io/skylink/skylinkjs/latest/docs/index.html)
+You’ve created a simple video conference app. Easy, right? Now explore all the ways that you can real-time interactions to your website.
 
 Here is another example Codepen that we’ve created that shows how you can create a very simple audio/video conference with JavaScript client-side code, with no additional server code required
 
